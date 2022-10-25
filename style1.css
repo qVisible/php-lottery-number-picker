@@ -1,0 +1,29 @@
+body {
+    font-family: verdana;
+}
+
+#wrapper {
+    text-align: center;
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div > div {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    border-radius: 2px;
+    margin: 3px;
+    font-size: 0.7em;
+}
+
+div > div:nth-last-of-type(odd) {
+    background-color: pink;
+}
+
+div > div:nth-last-of-type(even) {
+    background-color: blanchedalmond;
+}
